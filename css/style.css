@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Edu+VIC+WA+NT+Beginner&display=swap');
+
+:root {
+    --main-bg-color: #2874f0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+
+    background-color: var(--main-bg-color);
+    font-family: 'lato', sans-serif;
+}
+
+nav {
+    display: flex;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+
+}
+
+
+.logo img {
+
+    width: 88px;
+    padding: 0 25px;
+
+}
+
+nav ul {
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+nav ul li {
+    list-style: none;
+    padding: 21px;
+
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    height: 11px;
+}
+
+nav ul li a:hover {
+    color: rgb(5, 22, 99);
+    font-style: bold;
+
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    width: 30vw;
+    height: 23px;
+    border-radius: 10px;
+    margin: 0 12px;
+    padding: 0 12px;
+}
+
+.search button {
+    font-weight: 400;
+    font-family: 'lato', sans-serif;
+}
+
+
+.container {
+    min-height: calc(100vh -58px -12vh);
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+    margin: 12px auto 12px auto;
+    overflow: hidden;
+
+}
+
+.slider img {
+    width: 800px;
+    height: 400px;
+}
+
+.cards {
+    display: flex;
+
+    justify-content: center;
+    overflow: hidden;
+}
+
+.card {
+    max-width: 90vw;
+    margin: 17px 35px;
+    font-family: 'lato', sans-serif;
+
+}
+
+
+.card-item {
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 13vw;
+    margin: 0 30px;
+}
+
+.card-item img {
+    width: 160px;
+    height: 160px;
+}
+
+.card h2 {
+    font-family: 'lato', sans-serif;
+    margin: 12px 0;
+    color: #0b45a2;
+}
+
+footer {
+    height: 12vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'lato', sans-serif;
+}
